@@ -1,23 +1,70 @@
-# co3224f249bca482bd4d12690
+# Notes App
 
-Warning: Vite enforces using jsx syntax inside jsx/tsx files, so it will complain about that. Solution: rename `.js` files to `.jsx` :)
+A simple and elegant markdown notes application built with React and Vite. Create, edit, and organize your notes with real-time markdown preview.
 
-Quick start:
+## 🚀 Live Demo
 
+**[View Live App](https://clever-naiad-0445e3.netlify.app/)**
+
+## ✨ Features
+
+- **Markdown Editor**: Write notes in markdown with live preview
+- **Real-time Preview**: See your formatted content as you type
+- **Note Management**: Create, edit, and delete notes
+- **Split View**: Side-by-side editor and preview panes
+- **Responsive Design**: Works on desktop and mobile devices
+- **Local Storage**: Notes are saved locally in your browser
+
+## 🛠️ Built With
+
+- **React** - Frontend framework
+- **Vite** - Build tool and development server
+- **react-mde** - Markdown editor component
+- **Showdown** - Markdown to HTML converter
+- **react-split** - Resizable split panes
+
+## 🏃‍♂️ Getting Started
+
+### Prerequisites
+
+- Node.js (version 14 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+```bash
+git clone <your-repo-url>
+cd notes-app
 ```
-$ npm install
-$ npm start
-````
 
-Head over to https://vitejs.dev/ to learn more about using vite
-## About Scrimba
+2. Install dependencies
+```bash
+npm install
+```
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+3. Start the development server
+```bash
+npm run dev
+```
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+4. Open your browser and navigate to `http://localhost:5173`
 
-Happy Coding!
+## 📝 Usage
+
+1. **Create a Note**: Click the "+" button to create a new note
+2. **Edit Notes**: Click on any note in the sidebar to start editing
+3. **Preview**: Use the preview tab to see your formatted markdown
+4. **Delete Notes**: Click the trash icon to delete unwanted notes
+
+## 🚀 Deployment
+
+The app is deployed on Netlify. To deploy your own version:
+
+1. Build the project
+```bash
+npm run build
+```
+
+2. Deploy the `dist` folder to your preferred hosting service
+
